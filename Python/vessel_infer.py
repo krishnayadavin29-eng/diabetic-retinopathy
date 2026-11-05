@@ -44,8 +44,8 @@ import numpy as np
 from skimage import io as skio
 from skimage.transform import resize as sk_resize
 
-import r2v2_preprocessing
-from common import (
+import Python.r2v2_preprocessing as r2v2_preprocessing
+from Python.common import (
     MODELS_DIR,
     OUTPUTS_DIR,
     PipelineError,

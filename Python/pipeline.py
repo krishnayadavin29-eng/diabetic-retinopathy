@@ -29,11 +29,11 @@ import sys
 import time
 from pathlib import Path
 
-from common import MODELS_DIR, OUTPUTS_DIR, PipelineError, describe_session, load_onnx_session
-import vessel_infer
-import od_infer
-import ex_infer
-import combine
+from Python.common import MODELS_DIR, OUTPUTS_DIR, PipelineError, describe_session, load_onnx_session
+import Python.vessel_infer as vessel_infer
+import Python.od_infer as od_infer
+import Python.ex_infer as ex_infer
+import Python.combine as combine
 
 
 def main():

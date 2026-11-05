@@ -25,7 +25,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from common import OUTPUTS_DIR, PipelineError, require_file
+from Python.common import OUTPUTS_DIR, PipelineError, require_file
 
 LABEL_BACKGROUND = 0
 LABEL_VESSEL = 1
